@@ -1,5 +1,5 @@
 'use strict'
 
-import  _ from 'lodash'
+const _ = require('lodash')
 
-console.log(head([1, 2, 3]))
+console.log(_.head([1, 2, 3]))
